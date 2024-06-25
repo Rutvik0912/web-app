@@ -1,0 +1,26 @@
+.app {
+  text-align: center;
+}
+
+.app-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.movie-item {
+  margin: 10px;
+  width: 200px;
+}
+
+.movie-info {
+  text-align: left;
+  padding: 10px;
+}
