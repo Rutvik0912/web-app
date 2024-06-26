@@ -26,7 +26,7 @@ const HomePage = () => {
             setMovies(prevMovies => (page === 1 ? data.results : [...prevMovies, ...data.results]));
             setHasMore(data.page < data.total_pages);
         };
-        if (!showFavorites) { // Fetch movies only if not showing favorites
+        if (!showFavorites) {
             loadMovies();
         }
     }, [page, query, filters, showFavorites]);
