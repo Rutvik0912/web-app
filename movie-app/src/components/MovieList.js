@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardActionArea, CardContent, CardMedia, Typography, IconButton } from '@mui/material';
 import FavoriteIcon from '@mui/icons-material/Favorite';
-import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder'; // Import unfilled favorite icon
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 
 const MovieList = ({ movies, favorites, onFavorite }) => {
   const isFavorite = (movie) => favorites?.some(fav => fav.id === movie.id);

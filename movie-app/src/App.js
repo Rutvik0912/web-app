@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div className="app">
       <header className="app-header">
-        <h1>Movie App</h1>
+        <h1>Movies Now</h1>
       </header>
       <main>
         <HomePage />
