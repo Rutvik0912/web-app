@@ -18,7 +18,7 @@ This is a movie browsing application built with React, utilizing the TMDB API to
 
 1. Clone the repository.
 2. Install dependencies:
-3. Configure .env file
+3. Configure .env file - REACT_APP_TMDB_API_KEY= 
 
 ```bash
 npm install
