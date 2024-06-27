@@ -18,3 +18,5 @@ This is a movie browsing application built with React, utilizing the TMDB API to
 
 ```bash
 npm install
+
+watch the video demonstration - https://www.loom.com/share/e305174ae1f645df9ad86fb5f1da5793?sid=f4e9d30b-9745-43ef-b3ad-69cfa7264008
